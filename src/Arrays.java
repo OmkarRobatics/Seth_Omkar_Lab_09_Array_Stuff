@@ -5,7 +5,7 @@ public class Arrays {
     public static void main(String[] args) {
         // part 1A
         // Array declarations
-        int ARRAY_LENGTH = 100; // constant var for array length
+        final int ARRAY_LENGTH = 100; // constant var for array length
         int[] dataPoints = new int[ARRAY_LENGTH]; // creates an array with 100 integer values, index 0-99
         // part 1B
         Random rnd = new Random(); // sets up random generator
