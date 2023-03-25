@@ -99,7 +99,7 @@ public class Arrays {
     //extra credit
     /**
      * @param values a integer array
-     * @return a integer min of the array
+     * @return an integer min of the array
      */
     public static int min(int values[]) {
         int min = values[0]; // min var
@@ -114,7 +114,7 @@ public class Arrays {
     }
     /**
      * @param values a integer array
-     * @return a integer max of the array
+     * @return an integer max of the array
      */
     public static int max(int values[]) {
         int max = values[0]; // max var
@@ -155,7 +155,7 @@ public class Arrays {
     }
     /**
      * @param values a integer array
-     * @param target a integer value to search for in the array
+     * @param target an integer value to search for in the array
      * @return a true or false statement describing if the value was found in the array or not
      */
     public static boolean contains(int values[], int target) {
